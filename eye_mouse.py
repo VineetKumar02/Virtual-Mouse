@@ -1,5 +1,4 @@
-import cv2     # pip install opencv-python
-
+import cv2
 import mediapipe as mp
 import pyautogui
 

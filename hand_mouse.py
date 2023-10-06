@@ -1,6 +1,6 @@
 import cv2
-import mediapipe as mp    # pip install mediapipe
-import pyautogui   # pip install pyautogui
+import mediapipe as mp
+import pyautogui
 
 cap = cv2.VideoCapture(0)   # capture 1st video source
 hand_detector = mp.solutions.hands.Hands()  # detect hands
